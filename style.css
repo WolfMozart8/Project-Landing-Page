@@ -2,8 +2,11 @@
     border: 1px solid red;
 }
 /* Golbals */
+img {
+    max-width: 100%;
+}
 .pad {
-    padding: 0 15%;
+    padding: 0 20%;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -22,6 +25,7 @@ h2 {
 a {
     text-decoration: none;
     color: #f9faf8;
+    margin-right: 10px;
 }
 ul {
     margin: 0;
@@ -49,6 +53,7 @@ li {
     justify-content: space-between;
     background-color: #1f2937;
     color: #f9faf8;
+    padding-top: 15px;
 }
 .logo {
     color: #f9faf8;
@@ -61,12 +66,19 @@ li {
 .navli {
     display: flex;
 }
+.m {
+    font-size: 38px;
+    font-weight: bolder;
+    color: #3882f6;
+}
 /* Hero */
 .hero {
     display: flex;
     background-color: #1f2937;
     padding-top: 48px;
     padding-bottom: 48px;
+    column-gap: 15px;
+    align-items: center;
 }
 .hero-content,
 .hero-img {
@@ -77,15 +89,37 @@ li {
 .main-div {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content {
+    max-width: 125px;
+
 }
 
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
+    font-weight: light;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-.content-image {
+.aquote {
+    text-align: right;
+    font-weight: 700;
+}
+.img {
     border: 2px solid #3882f6;
+    border-radius: 10%;
+}
+/* Final */
+.final-content {
+    background-color: #3882f6;
+    margin: 80px -80px;
+    padding: 10px 50px;
+    height: 125px;
 }
 
 /* Footer */
