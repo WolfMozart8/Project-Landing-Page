@@ -1,6 +1,4 @@
-* {
-    border: 1px solid red;
-}
+
 /* Golbals */
 img {
     max-width: 100%;
@@ -15,6 +13,7 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 0;
 }
 h2 {
     text-align: center;
@@ -37,7 +36,6 @@ li {
 }
 .main {
     margin: 0 auto;
-    max-width: 1200px;
 }
 .text {
     color: #e5e7eb;
@@ -45,8 +43,13 @@ li {
 }
 .button {
     background-color: #3882f6;
-    color: #e5e7eb;
+    color: #f9faf8;
+    font-size: 16px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    
 }
+
 /* Header */
 .header {
     display: flex;
@@ -95,7 +98,7 @@ li {
 }
 .content {
     max-width: 125px;
-
+    text-align: center;
 }
 
 .quote {
@@ -118,8 +121,32 @@ li {
 .final-content {
     background-color: #3882f6;
     margin: 80px -80px;
-    padding: 10px 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     height: 125px;
+    border-radius: 10px;
+    border: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.b2 {
+    border: 2px solid #f9faf8;
+}
+.h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;margin-bottom: 0;
+}
+.finalp {
+    font-size: 16px;
+    color: #e5e7eb;
+    margin-top: 0;
+}
+.final1,
+.final2 {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* Footer */
@@ -127,4 +154,5 @@ li {
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
+    padding: 20px;
 }
