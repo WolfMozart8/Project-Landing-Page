@@ -1,0 +1,96 @@
+* {
+    border: 1px solid red;
+}
+/* Golbals */
+.pad {
+    padding: 0 15%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+h2 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style: none;
+}
+.main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.logo,
+.nav {
+    display: flex;
+}
+.navli {
+    display: flex;
+}
+/* Hero */
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.hero-content,
+.hero-img {
+    flex: 1;
+}
+
+/* Main */
+.main-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+}
+.content-image {
+    border: 2px solid #3882f6;
+}
+
+/* Footer */
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+}
